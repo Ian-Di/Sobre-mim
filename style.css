@@ -7,7 +7,9 @@
     --cor1: linear-gradient(to top, rgb(83, 50, 150), rgb(255, 255, 255));
     --cor2: linear-gradient(to right, rgb(83, 50, 150), rgb(255, 255, 255));
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body{
     background-color: rgb(0, 0, 0);
 }
@@ -24,13 +26,11 @@ ul{
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-    height: 25px;;
-
     padding: 10px;
     display: flex;
     justify-content: space-between;
 
-    font-size: 2.5vh;
+    font-size: 3vh;
 }
 
 .nav-bar a{
@@ -38,14 +38,14 @@ ul{
     color: #fff;
 
     font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
+    font-size: 3vh;
     margin: 3px;
 }
 
 .nav-bar a:hover {
+   font-size: 3vh;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
-    margin: 3px;
+
     background-color: #fff;
     color: #000000;
 }
@@ -122,7 +122,8 @@ ul{
 .honeycomb{
     display: flex;
     
-    margin: 50px auto;
+    margin: 70px auto;
+    
 }
 
 #footer{
@@ -135,7 +136,16 @@ ul{
 
     padding: 34px;
 
-    font-size: 44px;
+    font-size: 7vh;
+}
+
+#footer p{
+  font-size: 3vh;
+  color: #fff;
+
+  font-family: 'Courier New', Courier, monospace;
+  
+  
 }
 
 #footer a{ 
@@ -152,7 +162,6 @@ ul{
 #footer a:hover{
     background-color: black;
 }
-
 @-webkit-keyframes honeycomb {
     0%,
     20%,
