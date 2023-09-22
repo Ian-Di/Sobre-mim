@@ -30,7 +30,7 @@ ul{
     display: flex;
     justify-content: space-between;
 
-    font-size: 3vh;
+    font-size: 2vh;
 }
 
 .nav-bar a{
@@ -38,12 +38,12 @@ ul{
     color: #fff;
 
     font-family: 'Courier New', Courier, monospace;
-    font-size: 3vh;
+    font-size: 1.5vh;
     margin: 3px;
 }
 
 .nav-bar a:hover {
-   font-size: 3vh;
+   font-size: 1.5vh;
     font-family: 'Courier New', Courier, monospace;
 
     background-color: #fff;
@@ -136,7 +136,7 @@ ul{
 
     padding: 34px;
 
-    font-size: 7vh;
+    font-size: 5vh;
 }
 
 #footer p{
